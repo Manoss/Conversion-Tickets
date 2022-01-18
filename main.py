@@ -3,9 +3,10 @@ import os
 import db
 import re
 from datetime import datetime
+from pathlib import Path #Gestion des slash et anti-slash selon OS
 #from db import insertdb
 
-folder_path = "../Tickets"
+folder_path = Path("../Tickets")
 
 
 ###################
@@ -76,7 +77,7 @@ for path, dirs, files in os.walk(folder_path):
             # log
             print("Fichier importé : ", filename)
             # Import dans MongoDB
-            addticket(path + "/" + filename)
+            addticket(path / filename)
 
 file.close()
 db.closedb()
