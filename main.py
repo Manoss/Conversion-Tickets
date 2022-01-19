@@ -72,12 +72,14 @@ for path, dirs, files in os.walk(folder_path):
     for filename in files:
         # Seulement les fichiers se terminant par txt
         if filename.endswith(".txt"):
+            # Création du chemin complet avec gestion des / et \ selon OS
+            fullpath = Path(path) / Path(filename)
             # historise les fichiers importés
-            file.writelines(filename +"\r")
+            file.writelines(str(fullpath) +"\r")
             # log
-            print("Fichier importé : ", filename)
+            print("Fichier importé : ", fullpath)
             # Import dans MongoDB
-            addticket(path / filename)
+            addticket(fullpath)
 
 file.close()
 db.closedb()
