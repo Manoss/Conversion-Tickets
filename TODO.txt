@@ -1,2 +1,44 @@
 Crée modèle des tickets GPL1, GPL2 et CGA afin de simplifier l'appel des conditions.
 remplacemnt des nom des clés par la nature de la clé définie dans ces modèles.
+Trouver une stratégie dans le cas ou un horodatage est vide :
+
+STATION=50AW69
+TYPE=CHARGEMENT
+POSTE=CGA2
+NUM_WAGON=33807969055-2
+NUM_RAME=36396
+TABLIER=A+B+C                                                                           
+CONS_TOPR=79150
+CONS_OP=78800
+CONSIGNE=78800
+CODE_PRODUIT=9023                                                                            
+PRODUIT_LIBELLE=                                                                                
+CODE_ONU=0
+DENSITE_BAC_15=0
+HORODATAGE_DEB=14/5/2021 11:52:2                                                               
+PDS_BRUT_DEB=24300
+DSD_DEB=18337
+HORODATAGE_FIN=                                                                                
+PDS_BRUT_FIN=0
+DSD_FIN=0
+POIDS_NET=0
+DUREE=0
+FIN_CHRGT=                                                                                
+TARE_TOPR=0
+TARE=0
+MASSE_BRUTE_TOPR=0
+MASSE_NETTE_TOPR=0
+MASSE_TOPR=0
+NUM_SEQ_TOPR=0
+CODE_PRODUIT_TOPR=0
+VOL_T_TOPR=0
+CAPACITE_TOPR=0
+URV_TOPR=                                                                                
+VOL_A_15_TOPR=0
+TEMPERATURE_TOPR=0
+QPREDE_TOPR=0
+VOL_COLORANT_TOPR=0
+AUTORISATION_TOPR=                                                                                
+ETAT_TOPR=0
+
+Par défaut l'attribut n'est pas renseigné.
