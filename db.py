@@ -4,7 +4,7 @@ clientdb = pymongo.MongoClient("mongodb://localhost:27017/")
 
 def connectdb():
     #clientdb = pymongo.MongoClient("mongodb://localhost:27017/")
-    db = clientdb["cga"]
+    db = clientdb["ticket"]
     collection = db["tickets"]
     return collection
 

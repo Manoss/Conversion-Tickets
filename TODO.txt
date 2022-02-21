@@ -1,1 +1,2 @@
-gérer dynamiquement le format de chemin entre Unix et Windows (/ vs \)
+Crée modèle des tickets GPL1, GPL2 et CGA afin de simplifier l'appel des conditions.
+remplacemnt des nom des clés par la nature de la clé définie dans ces modèles.
